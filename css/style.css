@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* Pie de página */
+footer {
+  justify-content: stretch; }
+  footer div {
+    display: flex;
+    gap: 0;
+    padding: 0; }
+    footer div div img {
+      align-self: flex-start; }
+    footer div section {
+      flex-direction: column; }
+      footer div section div div {
+        flex-direction: column;
+        margin-right: 2rem; }
+        footer div section div div ul li div {
+          flex-direction: column; }
+
+.footer__abajo {
+  display: flex;
+  flex-direction: column; }
+  .footer__abajo____row {
+    justify-content: space-around; }
+
+.infor {
+  align-content: center;
+  text-align: center;
+  padding: 3rem 0 1rem 0; }
+  .infor__container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 0 2rem 0; }
+  .infor__info {
+    color: #007BC7; }
+
+.formulario {
+  background: transparent url("../recursos/imag/phone-img.png") 0% 0% no-repeat padding-box;
+  background-position-x: right;
+  background-position-y: bottom;
+  padding-bottom: 10rem;
+  padding-top: 4rem;
+  background-color: #CFFBE2;
+  border-radius: 1.5rem; }
+  .formulario__container {
+    display: flex;
+    flex-direction: row;
+    max-width: max-content; }
+  .formulario__form {
+    display: flex;
+    flex-direction: column; }
+  .formulario label {
+    flex-direction: column; }
+  .formulario__input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.2rem;
+    padding: 0.54rem;
+    border: solid transparent; }
+
+.card__fondo {
+  background: #FFDB2E; }
+
+.img {
+  display: flex;
+  padding: 1rem 0 1rem 0;
+  margin: 0 2rem 0 2rem; }
+  .img__icon {
+    height: 8vh; }
+
+/* ROOT */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Nunito";
+  text-align: justify;
+  letter-spacing: 0.05rem;
+  font-size: 20vw; }
+
+a {
+  text-decoration: none; }
+
+li {
+  display: inline;
+  padding: 0.5rem;
+  position: relative;
+  font-size: 0.87rem; }
+
+section {
+  padding: 1rem 0 1rem 0;
+  gap: 1rem; }
+  section div {
+    padding: 0 0 1rem 0;
+    gap: 1rem; }
+
+a::selection, button::selection, img::selection, span::selection, p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection {
+  background-color: #B7D8ED; }
+
+.text {
+  padding: 0 0 1rem 1rem; }
+  .text__negrilla {
+    font-weight: bold; }
+
+.fondo {
+  background-color: #F3F6F9; }
+  .fondo__container {
+    margin: 2rem 0 2rem 0;
+    gap: 2rem; }
+
+.boton {
+  display: flex; }
+
+/* MediaQueries */
+/* PC */
+@media (min-width: 1050px) and (max-width: 1980px) {
+  .escuelas {
+    display: none; }
+  .redes {
+    display: none; } }
+
+/* TABLET */
+@media (min-width: 541px) and (max-width: 720px) {
+  .formulario {
+    border-radius: 0;
+    padding-bottom: 25rem; }
+    .formulario__container {
+      display: flex;
+      flex-direction: column;
+      max-width: none; }
+  .boton {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content; }
+  .img__icon {
+    height: 9vh; }
+  .infor {
+    text-align: left;
+    padding: 3rem 2rem 1rem 2rem; }
+    .infor__container {
+      display: flex;
+      flex-direction: column; }
+    .infor__info {
+      color: #007BC7; }
+  footer {
+    justify-content: space-between; }
+    footer div {
+      flex-direction: column; }
+      footer div section div div {
+        flex-direction: column; }
+      footer div section ul li div {
+        flex-direction: row; }
+  .footer__abajo {
+    display: flex;
+    flex-direction: column; }
+    .footer__abajo____row {
+      justify-content: space-around; } }
+
+/* CELULAR */
+@media (min-width: 320px) and (max-width: 540px) {
+  .formulario {
+    border-radius: 0;
+    padding-bottom: 25rem; }
+    .formulario__container {
+      display: flex;
+      flex-direction: column;
+      max-width: none; }
+  button {
+    width: max-content; }
+  .boton {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content; }
+  .img__icon {
+    height: 9vh; }
+  .infor {
+    text-align: left;
+    padding: 3rem 2rem 1rem 2rem; }
+    .infor__container {
+      display: flex;
+      flex-direction: column; }
+    .infor__info {
+      color: #007BC7; }
+  footer {
+    justify-content: space-between; }
+    footer div {
+      flex-direction: column; }
+      footer div section div div {
+        flex-direction: column; }
+      footer div section ul li div {
+        flex-direction: row; }
+  .footer__abajo {
+    display: flex;
+    flex-direction: column; }
+    .footer__abajo____row {
+      justify-content: space-around; } }

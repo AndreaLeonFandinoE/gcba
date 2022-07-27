@@ -1,0 +1,29 @@
+
+.formulario{
+    background: $background-form;
+    background-position-x: right;
+    background-position-y: bottom;
+    padding-bottom: 10rem;
+    padding-top: 4rem;
+    background-color: $background-form-color;
+    border-radius: 1.5rem;
+    &__container{
+        display: flex;
+        flex-direction: row;
+        max-width: max-content ;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        flex-direction: column;
+    }
+    &__input{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.2rem;
+        padding: 0.54rem;
+        border: solid transparent;
+    }
+}

@@ -1,0 +1,132 @@
+/* MediaQueries */
+
+/* PC */
+@media (min-width: 1050px) and (max-width: 1980px){
+    .escuelas{
+        display: none;
+    }
+
+    .redes{
+        display: none;
+    }
+}
+/* TABLET */
+@media (min-width: 541px) and (max-width: 720px) {
+    .formulario{
+        border-radius: 0;
+        padding-bottom: 25rem;
+        &__container{
+            display: flex;
+            flex-direction: column;
+            max-width: none ;
+        }
+    }
+    
+    .boton{
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+    }
+    
+    .img{
+        &__icon{
+            height: 9vh;
+        }
+    }
+
+    .infor{
+        text-align: left;
+        padding: 3rem 2rem 1rem 2rem;
+        &__container{
+            display: flex;
+            flex-direction: column;
+        }&__info{
+            color: $color-enlace;
+        }
+    }
+
+    footer{
+        justify-content: space-between;
+        div{
+            flex-direction: column;
+            section div div {
+                    flex-direction:  column;
+                }
+                section ul li div{
+                    flex-direction:  row;
+                }
+        }
+        
+    }
+    
+    .footer__abajo{
+        display: flex;
+        flex-direction: column;
+        &____row{
+            justify-content: space-around;
+        }
+    }
+}
+
+/* CELULAR */
+@media (min-width: 320px) and (max-width: 540px) {
+
+    .formulario{
+        border-radius: 0;
+        padding-bottom: 25rem;
+        &__container{
+            display: flex;
+            flex-direction: column;
+            max-width: none ;
+        }
+    }
+
+    button{
+        width: max-content;
+    }
+    
+    .boton{
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+    }
+    
+    .img{
+        &__icon{
+            height: 9vh;
+        }
+    }
+
+    .infor{
+        text-align: left;
+        padding: 3rem 2rem 1rem 2rem;
+        &__container{
+            display: flex;
+            flex-direction: column;
+        }&__info{
+            color: $color-enlace;
+        }
+    }
+
+    footer{
+        justify-content: space-between;
+        div{
+            flex-direction: column;
+            section div div {
+                    flex-direction:  column;
+                }
+                section ul li div{
+                    flex-direction:  row;
+                }
+        }
+        
+    }
+    
+    .footer__abajo{
+        display: flex;
+        flex-direction: column;
+        &____row{
+            justify-content: space-around;
+        }
+    }
+}

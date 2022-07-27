@@ -1,0 +1,14 @@
+.infor{
+    align-content: center;
+    text-align: center;
+    padding: 3rem 0 1rem 0;
+    &__container{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        padding: 2rem 0 2rem 0;
+    }&__info{
+        color: $color-enlace;
+    }
+}
+

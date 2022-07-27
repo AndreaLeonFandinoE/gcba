@@ -1,0 +1,33 @@
+/* Pie de página */
+
+footer{
+    justify-content: stretch;
+    div{
+        display: flex;
+        gap: 0;
+        padding: 0;
+        div img{
+            align-self: flex-start;
+        }
+        section{
+            flex-direction: column;
+            div div {
+                flex-direction:  column;
+                margin-right: 2rem;
+                ul li div{
+                flex-direction: column;
+                }
+            }
+        }
+    }
+    
+}
+
+.footer__abajo{
+    display: flex;
+    flex-direction: column;
+    &____row{
+        justify-content: space-around;
+    }
+}
+
